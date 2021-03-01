@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\helga\university\programming\c++\Labs\Lab3\loops\factorial\Source.cpp(17,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  factorial.vcxproj -> D:\helga\university\programming\c++\Labs\Lab3\loops\Debug\factorial.exe

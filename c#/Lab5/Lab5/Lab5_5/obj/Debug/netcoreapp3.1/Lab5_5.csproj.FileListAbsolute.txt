@@ -1,0 +1,13 @@
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.exe
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.deps.json
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.runtimeconfig.json
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.runtimeconfig.dev.json
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.dll
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\bin\Debug\netcoreapp3.1\Lab5_5.pdb
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.AssemblyInfoInputs.cache
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.AssemblyInfo.cs
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.csproj.CoreCompileInputs.cache
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.dll
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.pdb
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.genruntimeconfig.cache
+D:\helga\university\programming\c#\Lab5\Lab5\Lab5_5\obj\Debug\netcoreapp3.1\Lab5_5.csprojAssemblyReference.cache

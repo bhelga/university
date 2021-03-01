@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+}
+h1{
+    padding: 20px 40px;
+    font-family: 'Calistoga';
+    font-weight: 900;
+    font-size: xx-large;
+}
+h3{
+    padding: 20px 10px;
+    font-family: monospace;
+    font-stretch: extra-condensed;
+}
+.cont {
+    border: 2px; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.conteiner {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+

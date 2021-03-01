@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="keywords" content="meta, www, web">
+    <meta name="author" content="Arni Schwarz">
+    <style type="text/css">
+    body {background-color: burlywood;
+    color:darkblue;
+    }
+    a {
+        color: bisque;
+    }
+    a:visited {
+        color: darkviolet;
+    }
+    a:active {
+        color: lime;
+    }
+    </style>
+</head>
+<body>
+    <h1><a name="N1">Мова HTML</a></h1>
+    <h2>Створення документа в HTML</h2>
+    <p style="text-align: justify;">
+        <span style="color: red;"> <u>HeperTextMarkup Lenguage</u> <b>(HTML)</b></span>
+        є стандартною мовою,що призначена для створення <b>гіпертекстових</b> документів у середовищі
+        <span style="font-size: 5;">  Інтернет</span>.<br>
+        Всі <b>HTML</b> документи записуються в <i>ASCII</i> форматі і тому можуть бути створені і 
+        відредаговані в будь-якому текстовому редакторі. Будь-який <b>гіпертекст</b> схожий на 
+        <span style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif";>книгу</span> 
+        і може бути розбитий на окремі структурні елементи:
+    </p>
+    <ul type="circle">
+        <li>Власне документ</li>
+        <li>Глави, параграфи, пункти, підпункти</li>
+        <li>Абзаци</li>
+        <li>Таблиці</li>
+        <li>Рисунки</li>
+    </ul>
+    <ol type="A">
+        <li>Власне документ розмічається <i>тегами</i> заголовку і тіла документу</li>
+        <li>Глави, параграфи розмічаються <i>тегами</i> заголовку розділу документу</li>
+        <li>Абзаци розмічаються <i>тегами</i> абзацу</li>
+        <li>Таблиці розмічаються <i>тегами</i> таблиці</li>
+        <li>Рисунки — <i>тегами</i> рисунків</li>
+    </ol>
+    <ol type="1">
+        <li>Одна категорія тегів описує загальні властивості документа, такі як заголовок або автора документу</li>
+        <li>Інша категорія тегів визначає як буде відображатися <b>браузером</b> тіло документа в цілому</li>
+    </ol>
+    <dl>
+        <dt><a name="N2">Документ HTML</a>
+            <dd>Розмічається за допомогою тегів</dd>
+            <dd>Читається браузером</dd>
+        </dt>
+        <dt>Браузер
+            <dd>Це програма для перегляду гіпертексту в <b>Інтернеті</b></dd>
+            <dd>Відображає розмічений за допомогою тегів текст, але самі теги не відображає</dd>
+        </dt>
+    </dl>
+    <menu type="i">
+        <li><i><u>Файл документа HTML</u></i> має розширення <span style="color: green;">*.html</span></li>
+        <li><i><u>Браузер</u></i> за певним розширенням розпізнає файл як документ HTML</li>
+    </menu>
+    <table width="80%" style="text-align: center; border-width: 1; background-color: peachpuff;">
+        <caption style="text-align: right;">Таблиця 1</caption>
+        <tr height="40" style="background-color: sandybrown;"><th colspan=3>Рейтинг популярності браузерів 
+        в Україні</th></tr>
+        <tr height="40">
+            <th width="15%">Місце</th>
+            <th width="75%">Браузер</th>
+            <th width="10%">%</th>
+        </tr>
+        <tr>
+            <td style="text-align: center; background-color: gold;">1</td>
+            <td>MS Internet Explorer</td>
+            <td style="text-align: center;">57</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; background-color:silver;">2</td>
+            <td>Google Chrome</td>
+            <td style="text-align: center;">24</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; background-color: #cd7f32;">3</td>
+            <td>Mozila Firefox</td>
+            <td style="text-align: center;">12</td>
+        </tr>
+        <tr>
+            <td style="text-align: center">4</td>
+            <td>Safari</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td style="text-align: center">5</td>
+            <td>Opera</td>
+            <td style="text-align: center;">2</td>
+        </tr>
+    </table>
+    <hr size=3 color="red">
+    <p style="text-align: center;"><img src="imagines/first.jpg" alt="Рисунок" width="400" style="border-block-width: 400"></p>
+    <p style="text-align: left">
+        <img src="https://blackwoodit.co.uk/wp-content/uploads/2020/07/google_PNG19644.png" title="Google" width="272">
+        <img src="https://pngimg.com/uploads/yandex/yandex_PNG20.png" title="Google" width="272">
+        <img src="https://ua.city-markets.net/wimages/cmnlogo.png" title="Google" width="272">
+    </p>
+    <embed width="956" height="538" src="https://www.youtube.com/embed/V1xzeEhWr44?list=RDNdf-eMyEVG8" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <hr size="3" color="red">
+    <a href="http://bigmir.net/">Сервер Bigmir.net</a>
+    <div>
+        <p>Пошук інформації в мережі <b>Internet</b> можна здійснювати за допомогою пошукових систем. Перейти до них з поточної 
+        сторінки можна через гіперпосилання:</p>
+        <ul type="disc">
+            <li>Пошукова система <a href="http://google.com">Google</a></li>
+            <li>Пошукова система <a href="http://yandex.ua">Yandex</a></li>
+            <li>Пошукова система <a href="http://rambler.ru">Rambler</a></li>
+            <li>Пошукова система <a href="http://yahoo.com">Yahoo</a></li>
+            <li>Пошукова система <a href="http://msn.com">MSN</a></li>
+        </ul>
+    </div>
+    <p>
+        Гіперпосилання на web-сторінки локального сервера(комп'ютера): <br>
+        <a href="files/mpgfilms.htm">Фільми в форматі MPEG</a> — файл сторінки <span color="green">mpgfilms.htm</span> знаходиться 
+        в папці files, яка розташована в поточній папці.<br>
+        <a href="files/avi/films.htm">Фільми в форматі AVI</a> — файл сторінки <span color="green">films.htm</span> знаходиться в папці <b>vob</b>, 
+        яка існує всередині папки files.<br>
+        <a href="files/vob/dvdfilms.htm">Фільми на DVD</a> — файл сторінки <span color="green">dvdfilms.htm</span> знаходться в папці <b>vob</b>, 
+        яка існує на одному рівні з папкою avi.
+    </p>
+    <p>
+        За допомогою посилання можна переглянути зображення як окрему сторінку: <a href="imagines/first.jpg" target="blank">Переглянути зображення</a>
+    </p>
+    <p> 
+        За допомогою гіперпосилання можна завантажити файл:
+        <a href="imagines/second.jpg" download>Завантажити файл</a>
+    </p>
+    <a href='#N1'>Повернутися до &quot; Створення документа в HTML &quot;</a><br>
+    <a href='#N2'>Повернутися до &quot; Документ в HTML &quot;</a><br>
+</body>
+</html>
