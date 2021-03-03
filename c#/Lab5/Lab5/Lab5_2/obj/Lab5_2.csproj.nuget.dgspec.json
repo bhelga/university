@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj": {}
+    "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj": {}
   },
   "projects": {
-    "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj": {
+    "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj",
+        "projectUniqueName": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj",
         "projectName": "Lab5_2",
-        "projectPath": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj",
+        "projectPath": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_2\\Lab5_2.csproj",
         "packagesPath": "C:\\Users\\Helga\\.nuget\\packages\\",
-        "outputPath": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_2\\obj\\",
+        "outputPath": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helga\\AppData\\Roaming\\NuGet\\NuGet.Config",

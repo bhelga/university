@@ -40,7 +40,12 @@ namespace Lab5_2
                     maxIndex = i;
                 }
             }
+            Console.WriteLine($"\n\nMin element is: {min}\tPosition:\t[{minIndex}]\nMax element is: {max}\tPosition:\t[{maxIndex}]");
             Swap<int>(ref array[minIndex], ref array[maxIndex]);
+            if (minIndex > maxIndex)
+            {
+                Swap<int>(ref minIndex, ref maxIndex);
+            }
             int sum = 0;
             for (int k = minIndex; k <= maxIndex; k++)
             {

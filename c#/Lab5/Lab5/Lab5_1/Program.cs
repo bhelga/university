@@ -53,9 +53,21 @@ namespace Lab5_1
                 Console.Write($"{i} | ");
             }
             double sum = 0;
-            Console.WriteLine($"\nВведiть дiапазон вiд 1 до {value}:");
-            int x = CorrectIntInput("Початок:\t");
-            int y = CorrectIntInput("Кiнець:\t");
+            int x, y;
+            while (true)
+            {
+                Console.WriteLine($"\nВведiть дiапазон вiд 1 до {value}:");
+                x = CorrectIntInput("Початок:\t");
+                y = CorrectIntInput("Кiнець:\t");
+                if (x < value && y < value && x < y)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Range error! Try again!");
+                }
+            }
             for (; x <= y; x++)
             {
                 sum += array[x - 1];

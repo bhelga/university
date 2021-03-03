@@ -4,16 +4,37 @@ namespace Lab5_3
 {
     class Program
     {
+        static int CorrectIntInput(string str)
+        {
+            int point = 0;
+            while (true)
+            {
+                Console.Write(str);
+                if (!int.TryParse(Console.ReadLine(), out point))  // пробує перетворити строку в int, вертає true, якщо це можливо і записує дані в point
+                {
+                    Console.WriteLine("Value error!");
+                }
+                else
+                {
+                    if (point > 0 && point <= 20)
+                    {
+                        break;
+                    }
+                }
+            }
+            return point;
+        }
         static void Main(string[] args)
         {
-            int value = 20;
+            int value = CorrectIntInput("Введiть розмiрнiсть матрицi:\t");
+            Console.Clear();
             int[,] array = new int[value, value];
             Random rand = new Random();
             for (int i = 0; i < value; i++)
             {
                 for (int j = 0; j < value; j++)
                 {
-                    array[i, j] = rand.Next(0, 100);
+                    array[i, j] = rand.Next(0, 2);
                     Console.Write(String.Format("{0, 5} | ", array[i, j]));
                 }
                 Console.WriteLine("");
@@ -40,12 +61,12 @@ namespace Lab5_3
                 {
                     if (colomns[i] == colomns[j] && i != j)
                     {
-                        Console.WriteLine($"Сума елементiв колонки {i + 1} дорiвнює сумi елементiв колонки {j + 1}");
+                        Console.WriteLine($"\nСума елементiв колонки {i + 1} дорiвнює сумi елементiв колонки {j + 1}");
                         counter++;
                     }
                     if (rows[i] == rows[j] && i != j)
                     {
-                        Console.WriteLine($"Сума елементiв рядка {i + 1} дорiвнює сумi елементiв рядка {j + 1}");
+                        Console.WriteLine($"\nСума елементiв рядка {i + 1} дорiвнює сумi елементiв рядка {j + 1}");
                         counter++;
                     }
                 }

@@ -16,7 +16,7 @@ namespace Lab5_4
                 }
                 else
                 {
-                    if (point > 0)
+                    if (point > 0 && point <= 18)
                     {
                         break;
                     }
@@ -35,7 +35,7 @@ namespace Lab5_4
                 for(int j = 0; j < seat; j++)
                 {
                     train[i, j] = rand.Next(0, 2);
-                    Console.Write($"{train[i, j]} | ");
+                    Console.Write($"{train[i, j]}|");
                 }
                 Console.WriteLine();
             }

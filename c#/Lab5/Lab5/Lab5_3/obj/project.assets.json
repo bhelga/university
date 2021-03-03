@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_3\\Lab5_3.csproj",
+      "projectUniqueName": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_3\\Lab5_3.csproj",
       "projectName": "Lab5_3",
-      "projectPath": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_3\\Lab5_3.csproj",
+      "projectPath": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_3\\Lab5_3.csproj",
       "packagesPath": "C:\\Users\\Helga\\.nuget\\packages\\",
-      "outputPath": "D:\\helga\\university\\programming\\c#\\Lab5\\Lab5\\Lab5_3\\obj\\",
+      "outputPath": "D:\\helga\\university\\programming\\university\\c#\\Lab5\\Lab5\\Lab5_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Helga\\AppData\\Roaming\\NuGet\\NuGet.Config",
