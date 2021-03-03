@@ -1,13 +1,23 @@
 import random
 
-val = 20
-array = [[random.randint(0, 100) for j in range(val)] for item in range(val)]
-# for i in range(val):
-#     array.append([])
-#     for j in range(val):
-#         array[i].append(random.randint(0, 100))
+def correct_int(string):
+    while True:
+        try:
+            point = int(input("{}".format(string)))
+        except ValueError:
+            print("Value error! Try again!\n")
+        else:
+            if 20 >= point > 0:
+                return point
+            print("Range error! Try again!\n")
+
+val = correct_int("Введiть розмiрнiсть матрицi:\t")
+array = [[random.randint(0, 1) for j in range(val)] for item in range(val)]
+max_len = max([len(str(e)) for r in array for e in r])
 for row in array:
-    print(row)
+    print(*list(map('{{:>{length}}}'.format(length=max_len).format, row)))
+# for row in array:
+#     print(row)
 
 colomnums = []
 rows = []

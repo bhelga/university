@@ -16,8 +16,11 @@ for i in range(0, val):
     if max < array[i]:
         max = array[i]
         max_index = i
+print(f"\nMin element is: {min}\tPosition:\t[{min_index}]\nMax element is: {max}\tPosition:\t[{max_index}]\n")
 array[min_index], array[max_index] = array[max_index], array[min_index]
 sum = 0
-for i in range(min_index, max_index):
+if min_index > max_index:
+    min_index, max_index = max_index, min_index
+for i in range(min_index, max_index + 1):
     sum += array[i]
 print("New array:\t", array, "\nThe sum is:\t", sum)

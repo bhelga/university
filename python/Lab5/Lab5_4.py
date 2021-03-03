@@ -6,7 +6,7 @@ def correct_int(string):
         except ValueError:
             print("Value error! Try again!\n")
         else:
-            if point > 0:
+            if 18 >= point > 0:
                 return point
             print("Range error! Try again!\n")
 

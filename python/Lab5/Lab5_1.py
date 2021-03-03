@@ -25,9 +25,14 @@ sum = 0.0
 for i in range(0, value):
     array.append(correct_float(f"Введiть {i + 1} елемент масиву:\t"))
 print("Ваш масив:\n", array)
-print(f"\nВведiть дiапазон вiд 1 до {value}:")
-x = correct_int("Початок:\t")
-y = correct_int("Кiнець:\t")
+while True:
+    print(f"\nВведiть дiапазон вiд 1 до {value}:")
+    x = correct_int("Початок:\t")
+    y = correct_int("Кiнець:\t")
+    if x < value and y < value and x < y:
+        break
+    else:
+        print("Range error! Try again!")
 sum = 0.0
 for i in range (x - 1, y):
     sum += array[i]

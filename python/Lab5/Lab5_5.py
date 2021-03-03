@@ -17,9 +17,26 @@ def correct_input(string):
             print("Value error! Try again!\n")
         else:
             return point
+def correct_array(string):
+    while True:
+        counter = 0
+        st = input("{}".format(string))
+        array = []
+        for x in st.split():
+            try:
+                item = int(x)
+                #array = [int(x) for x in string.split()]
+            except ValueError:
+                print("Value error! Try again!\n")
+                counter += 1
+                #break
+            else:
+                array.append(item)
+        if(counter == 0): break
+    return array
 
 value = correct_int("Введiть кiлькiсть рядкiв:\t")
-array = [ [int(x) for x in input(f"Введiть елементи [{item+1}] рядка:\t").split()] for item in range(value)]
+array = [correct_array(f"Введiть елементи [{item+1}] рядка:\t") for item in range(value)]
 for row in array:
     print(row)
 
