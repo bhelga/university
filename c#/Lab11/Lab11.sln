@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab11_1", "Lab11_1\Lab11_1.csproj", "{F2702866-3952-4A20-B50A-D42DCBFBF3B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab11_2", "Lab11_2\Lab11_2.csproj", "{ADA973D1-348A-49BF-82BF-024AC4BE6574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab11_3", "Lab3_3\Lab11_3.csproj", "{7ABB2EBC-4450-42A0-9502-01A61E0B6FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2702866-3952-4A20-B50A-D42DCBFBF3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2702866-3952-4A20-B50A-D42DCBFBF3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2702866-3952-4A20-B50A-D42DCBFBF3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2702866-3952-4A20-B50A-D42DCBFBF3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA973D1-348A-49BF-82BF-024AC4BE6574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA973D1-348A-49BF-82BF-024AC4BE6574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA973D1-348A-49BF-82BF-024AC4BE6574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA973D1-348A-49BF-82BF-024AC4BE6574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABB2EBC-4450-42A0-9502-01A61E0B6FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABB2EBC-4450-42A0-9502-01A61E0B6FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABB2EBC-4450-42A0-9502-01A61E0B6FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABB2EBC-4450-42A0-9502-01A61E0B6FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {949CA200-FD2C-4DEE-BCFA-10474E24FCD4}
+	EndGlobalSection
+EndGlobal

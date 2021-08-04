@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6dn5+YddjcJSMiJk8Ro4zVnL7X7MOLPXC+v7x8wuk25EhmyzyarFjLWL0K/RSEefsY9iyJy6Upo2FV3nhMilwA==",
+  "success": true,
+  "projectFilePath": "D:\\helga\\university\\programming\\university\\c#\\Lab15\\Lab15\\Lab15_4\\Lab15_4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Helga\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Helga\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Helga\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Helga\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

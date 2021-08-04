@@ -1,0 +1,12 @@
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.exe
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.deps.json
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.runtimeconfig.json
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.runtimeconfig.dev.json
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.dll
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\bin\Debug\netcoreapp3.1\tryy.pdb
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.AssemblyInfoInputs.cache
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.AssemblyInfo.cs
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.csproj.CoreCompileInputs.cache
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.dll
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.pdb
+D:\helga\university\programming\university\c#\Lab13\Lab13\tryy\obj\Debug\netcoreapp3.1\tryy.genruntimeconfig.cache

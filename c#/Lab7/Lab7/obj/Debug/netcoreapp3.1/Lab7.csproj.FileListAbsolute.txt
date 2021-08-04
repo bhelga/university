@@ -1,0 +1,13 @@
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.exe
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.deps.json
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.json
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.dev.json
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.dll
+D:\helga\university\programming\university\c#\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.pdb
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csprojAssemblyReference.cache
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfoInputs.cache
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfo.cs
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csproj.CoreCompileInputs.cache
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.dll
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.pdb
+D:\helga\university\programming\university\c#\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.genruntimeconfig.cache
